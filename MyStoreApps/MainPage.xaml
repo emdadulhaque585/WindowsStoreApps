@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="MyStoreApps.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyStoreApps"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="1173.729" Width="1707.627">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="604,6,0,0" Text="Entry of Tourist" TextWrapping="Wrap" VerticalAlignment="Top" Width="312" Height="59" FontSize="36" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="157,83,0,0" Text="ID:" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="180" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="157,147,0,0" Text="Title:" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="180" RenderTransformOrigin="0.509,1.923" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="157,207,0,0" Text="First Name:" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="180" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="157,271,0,0" Text="Last Name:" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="180" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="157,333,0,0" Text="Country:" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="180" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="157,397,0,0" Text="Passport No:" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="180" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="157,461,0,0" Text="Email:" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="180" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="157,527,0,0" Text="Phone No:" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="180" FontSize="36"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Margin="430,83,0,0" Text="" VerticalAlignment="Top" Width="290" Height="48"/>
+        <TextBox x:Name="txtfirstName" HorizontalAlignment="Left" Margin="430,207,0,0" Text="" VerticalAlignment="Top" Width="290" Height="40"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Margin="430,267,0,0" Text="" VerticalAlignment="Top" Width="290" Height="40"/>
+        <TextBox x:Name="txtCountry" HorizontalAlignment="Left" Margin="430,333,0,0" Text="" VerticalAlignment="Top" Width="290" Height="40"/>
+        <TextBox x:Name="txtPassport" HorizontalAlignment="Left" Margin="430,397,0,0" Text="" VerticalAlignment="Top" Width="290" Height="40"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="430,461,0,0" Text="" VerticalAlignment="Top" Width="290" Height="40"/>
+        <TextBox x:Name="txtPhoneNo" HorizontalAlignment="Left" Margin="430,527,0,0" Text="" VerticalAlignment="Top" Width="290" Height="40"/>
+        <ComboBox x:Name="cmbTitle" HorizontalAlignment="Left" Margin="430,147,0,0" VerticalAlignment="Top" Height="48" Width="290"/>
+        <Button x:Name="btnInsert" Content="Insert" HorizontalAlignment="Left" Margin="336,632,0,0" VerticalAlignment="Top" Height="60" Width="113" FontSize="36" Click="btnInsert_Click"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="499,632,0,0" VerticalAlignment="Top" Height="60" Width="141" FontSize="36"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="714,632,0,0" VerticalAlignment="Top" Height="60" Width="140" FontSize="36"/>
+
+    </Grid>
+</Page>
